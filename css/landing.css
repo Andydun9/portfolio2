@@ -1,0 +1,65 @@
+/*Landing Page*/
+body{
+background-image: url(../images/photography/dsc_0128.JPG);
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#landingSection {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#fff;
+}
+
+.contentWrap{
+    text-align: center;
+}
+
+#landingSection,
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 1em;
+    color:#fff;
+}
+
+#connect {
+    margin-top: 5em;
+    color:#fff;
+}
+
+.loadPage {
+    border: #fff solid 2px;
+    border-radius: 10px;
+    padding: .25em;
+    text-decoration: none;
+    color: #fff;
+    margin: .35em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.loadPage:hover{
+    border: blue solid 2px;
+    border-radius: 10px;
+    padding: .25em;
+    text-decoration: none;
+    color: blue;
+    margin: .35em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.icon{
+    width:35px;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+#backgroundImage{
+    width:100%;
+}
+
+p{
+    color:#fff;
+}

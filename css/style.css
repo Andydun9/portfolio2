@@ -1,0 +1,307 @@
+/* 
+colors: 
+black: #272D2D
+grey: #A39BA8
+light Blue: #B8C5D6
+white: #EDF5FC
+Green: #23CE6B
+
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Great Vibes', cursive;
+
+*/
+
+/* header */
+
+header{
+    background-color: #272D2D; 
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#topPhoto{
+    width: 150px;
+    float: left;
+    margin-left: 1.5em;
+    border-radius: 75px;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    color: #EDF5FC;
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'Cinzel', serif;
+    color: #EDF5FC;
+    font-size: 3em;
+    text-align: center
+}
+
+/* body */
+
+body{
+    background-color: #EDF5FC;
+  
+}
+
+.body-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+aside{
+    float: left;
+    margin-left: 1em;
+    font-family: 'Cinzel', serif;
+    margin-top: 1em;
+    text-size-adjust: 1.5em;
+   margin-top: 2em;
+   line-height: 2;
+}
+
+a{
+    color: #272D2D;
+}
+
+
+
+.select{
+    color: #23CE6B;
+}
+
+a:hover{
+    color:#A39BA8;
+    text-decoration: none;
+}
+
+h3{
+    font-family: 'Cinzel', serif;  
+    margin-top: 1em;
+    color: #272D2D;
+}
+
+p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.carousel-item{
+    height: 600px;
+    
+   
+}
+
+.carousel{
+    width: 85%;
+    margin:auto;
+}
+
+/* footer */
+
+footer{
+    background-color: #B8C5D6;
+    padding-bottom:1em;
+    margin-top:2.5em;
+}
+
+footer,
+p{
+    padding:1px;
+}
+
+.icon{
+    width: 25px;
+    margin: .25em;
+}
+
+/* resume styling */
+
+h5{
+    color: #272D2D;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    margin-bottom: -2em;
+    margin-top: 1em;
+}
+
+#education{
+    margin-bottom: .5em;
+    margin-top: 2em;
+}
+
+h4{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.job{
+    color: #272D2D;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    margin-top: 3em;
+    text-align: center;
+}
+
+/* Projects page */
+
+/* .col-left{
+    float: left;
+    width: 35%;
+    margin-left: 7em;
+
+}
+
+.col-right{
+    float: right;
+    width:35%;
+    margin-right: 7em;
+} */
+
+
+.project{
+    width: 40%;
+    display: inline-block;
+margin: 3em;
+vertical-align: top;
+}
+
+.portfolioImage{
+    width: 350px;
+    height: 250px;
+}
+
+.content-body{
+    width: 90%;
+    display: inline-block;
+
+}
+
+.free{
+    width: 90%;
+    display: inline-block;
+    margin: 3em;
+}
+
+/* sticky footer */
+
+
+
+.site-footer{
+
+ margin-top: 1500px;
+ width: 100%; 
+}
+
+/* .project-body{
+    margin-bottom:500px;
+} */
+
+/* contact form */
+
+.colForm-left{
+    float: left;
+    width:25%;
+    margin-left: 5em;
+}
+
+.colForm-right{
+    float:right;
+    margin-right: 5em;
+    width:50%;
+}
+
+#name{
+    width: 50%;
+    padding: .25em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#email{
+    width: 50%;
+    padding: .25em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.formInput{
+    width:75%;
+    padding-bottom: 7em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+#contact{
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.button{
+    border: #272D2D solid 1px;
+    padding: .55em .75em;
+    background-color:#A39BA8;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-radius: 5px;
+    color:#EDF5FC;
+}
+
+.button:hover{
+    border: #272D2D solid 1px;
+    padding: .55em .75em;
+    background-color:#272D2D;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-radius: 5px;
+    color: #EDF5FC;
+}
+
+.siteFooter{
+    margin-top: 1000px;
+    width: 100%; 
+}
+
+#tech{
+    width: 10%;
+}
+
+/* Photography */
+
+.photo{
+width: 75%;
+margin:auto;
+margin-top: 3em;
+}
+
+.photos{
+    width: 325px;
+    border: solid #fff 5px;
+    margin: .25em;
+}
+
+.photos:hover{
+opacity: 0.7;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    background-color: rgba(0,0,0,0.85);
+
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+}
