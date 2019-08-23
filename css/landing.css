@@ -1,11 +1,11 @@
 /*Landing Page*/
-/* body{
+body{
 background-image: url(../images/photography/dsc_0128.JPG);
 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-} */
+}
 
 #landingSection {
     font-family: 'Source Sans Pro', sans-serif;
