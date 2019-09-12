@@ -414,6 +414,8 @@ opacity: 0.7;
   #wrapper{
     max-width: 1200px;
     margin: auto 0;
+    /* display: inline-block; */
+    float: left;
 }
 
 .example-image-link{
@@ -430,6 +432,8 @@ opacity: 0.7;
     margin: 2%;
 }
 
+
+
 .example-image-link:hover {
     opacity: .8;
 }
@@ -441,7 +445,7 @@ opacity: 0.7;
   }
 
 
-@@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .one-third {
       width: 25%;
     }
